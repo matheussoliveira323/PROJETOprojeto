@@ -1,0 +1,108 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos do contêiner principal */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para títulos */
+h1 {
+    color: #333333;
+    text-align: center;
+}
+
+/* Estilos para o formulário de nota */
+.nota-form {
+    margin-bottom: 20px;
+}
+
+.nota-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.nota-form input[type="text"],
+.nota-form textarea {
+    width: calc(100% - 20px); /* Adiciona espaço para a borda */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.nota-form button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nota-form button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para a seção de notas */
+#notas {
+    border-top: 1px solid #cccccc;
+    padding-top: 20px;
+}
+
+/* Estilos para cada nota individual */
+.nota {
+    max-width: 600px; /* Defina a largura máxima da nota */
+    word-wrap: break-word; /* Permitir que o texto faça quebras de linha */
+    /* Adicione outros estilos conforme necessário */
+}
+
+
+.nota h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px; /* Tamanho da fonte do título */
+}
+
+.nota p {
+    margin: 0;
+    color: #666666;
+}
+
+.nota textarea {
+    width: calc(100% - 22px); /* Adiciona espaço para a borda */
+    min-height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.nota button {
+    padding: 5px 10px;
+    background-color: #ff4b4b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nota button:hover {
+    background-color: #e44141;
+}
+
+/* Ícones */
+.fa {
+    font-family: 'Font Awesome 5 Free';
+}

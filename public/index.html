@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung Notes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-jQF4k+RtT5v6Czlg6rMJqZmff7uIhSFiJ+cvfK1H4giXWVt6A8EuZiEBwf+L5Ca6RB0s3E+0uIObIHOIE/P0Xg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Samsung Notes</h1>
+        <div class="nota-form">
+            <label for="tituloNota">Título:</label>
+            <input type="text" id="tituloNota">
+            <label for="conteudoNota">Conteúdo:</label>
+            <textarea id="conteudoNota"></textarea>
+            <button id="novaNota"><i class="fas fa-plus"></i> Nova Nota</button>
+            <button id="salvarNota"><i class="fas fa-save"></i> Salvar Nota</button>
+            <button id="excluirSelecionadas"><i class="fas fa-trash-alt"></i> Excluir Selecionadas</button>
+            <p>Data de criação: <span id="dataNota"></span></p>
+        </div>
+        <div id="notas"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
